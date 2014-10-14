@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#FF022434" android:layout_width="fill_parent" android:layout_height="fill_parent" 
+     xmlns:android="http://schemas.android.com/apk/res/android">
+       <RelativeLayout android:id="@+id/titlebg_layout" android:orientation="vertical" android:background="@drawable/bar_3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+           
+        <ImageButton android:id="@+id/btn_back" 
+            android:layout_centerVertical="true" 
+            android:background="@drawable/ic_back" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside" />
+        
+        <ImageButton android:id="@+id/btn_complete" 
+            android:layout_alignParentRight="true" 
+            android:layout_centerVertical="true" 
+            android:background="@drawable/ic_complete" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside" />
+        
+        <ImageButton android:id="@+id/btn_new" 
+            android:layout_alignParentRight="true" 
+            android:layout_centerVertical="true" 
+            android:background="@drawable/ic_new" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:scaleType="centerInside" />
+        
+       	<ImageView android:id="@+id/txttitle" 
+       	    android:layout_width="100dp"
+       	    android:layout_height="50dp" 
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"   />
+	</RelativeLayout>
+
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" 
+          android:orientation="vertical" >
+
+          <LinearLayout  
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content"
+              android:layout_margin="20dip"
+              android:background="#ffffffff"
+              android:layout_weight="1" >
+          
+	          <EditText android:id="@+id/edit_text" 
+	              android:layout_width="fill_parent" 
+	              android:layout_height="fill_parent"
+	              android:gravity="left|top"
+	              android:textSize="20dip"
+	              android:hint="輸入文字......" />
+          
+          </LinearLayout>
+          
+          <LinearLayout  
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dip"
+              android:layout_marginLeft="10dip"
+              android:layout_marginRight="10dip"
+              android:layout_marginBottom="10dip"
+              android:background="#F2F4F7"
+              android:orientation="vertical"
+              android:layout_weight="1" >
+
+	          <LinearLayout  
+	              android:layout_width="fill_parent" 
+	              android:layout_height="wrap_content"
+	              android:layout_margin="5dip"
+	              android:gravity="center_vertical" >
+
+			      <ImageButton android:id="@+id/btn_textcolor" 
+			          android:layout_marginLeft="10dip" 
+			          android:background="@drawable/textcolor_btn" 
+			          android:layout_width="wrap_content" 
+			          android:layout_height="wrap_content"
+			          android:scaleType="centerInside" />
+				             
+			      <ImageButton android:id="@+id/btn_backcolor" 
+			          android:layout_marginLeft="10dip" 
+			          android:layout_centerVertical="true" 
+			          android:background="@drawable/backcolor_btn" 
+			          android:layout_width="wrap_content" 
+			          android:layout_height="wrap_content"
+			          android:scaleType="centerInside" />
+       	              	              
+	          </LinearLayout>
+
+	          <View 
+	              android:layout_width="fill_parent" 
+	              android:layout_height="1dip"
+	              android:background="#FFD0D7E2" />
+	          
+	          <View 
+	              android:layout_width="fill_parent" 
+	              android:layout_height="1dip"
+	              android:background="#FFEDF0F4" />
+	          	          	          
+	          <FrameLayout android:id="@+id/color_layout" 
+	              android:layout_width="fill_parent" 
+	              android:layout_height="fill_parent" />
+          
+          </LinearLayout>
+          
+	</LinearLayout>
+
+</LinearLayout>

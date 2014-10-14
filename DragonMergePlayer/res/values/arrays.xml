@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menus">
+        <item>@string/frames</item>
+        <item>@string/select</item>
+        <item>@string/borders</item>
+        <item>@string/finish</item>
+        <!-- <item>@string/settings</item> -->
+    </string-array>
+    <array name="menu_icons">
+        <item>@drawable/frames_icon</item>
+        <item>@drawable/select_icon</item>
+        <item>@drawable/borders_icon</item>
+        <item>@drawable/finish_icon</item>
+        <!-- <item>@drawable/settings_icon</item> -->
+    </array>
+    <string-array name="settings">
+        <item>@string/facebook_list</item>
+        <item>@string/twitter_list</item>
+        <item>@string/instagram_list</item>
+        <item>@string/rate_list</item>
+        <item>@string/contact_lis</item>
+        <item>@string/more_apps_list</item>
+        <item>@string/share_list</item>
+        <item>@string/help_list</item>
+    </string-array>
+    <array name="settings_icons">
+        <item>@drawable/facebook_list_icon</item>
+        <item>@drawable/twitter_list_icon</item>
+        <item>@drawable/instagram_list_icon</item>
+        <item>@drawable/rate_us_list_icon</item>
+        <item>@drawable/contact_us_list_icon</item>
+        <item>@drawable/more_apps_list_icon</item>
+        <item>@drawable/share_list_icon</item>
+        <item>@drawable/help_list_icon</item>
+    </array>
+</resources>

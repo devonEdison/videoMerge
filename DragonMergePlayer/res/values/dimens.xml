@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="color_wheel_radius">124.0dip</dimen>
+    <dimen name="color_wheel_thickness">8.0dip</dimen>
+    <dimen name="color_center_halo_radius">60.0dip</dimen>
+    <dimen name="color_center_radius">54.0dip</dimen>
+    <dimen name="color_pointer_halo_radius">18.0dip</dimen>
+    <dimen name="color_pointer_radius">14.0dip</dimen>
+    <dimen name="bar_thickness">4.0dip</dimen>
+    <dimen name="bar_length">240.0dip</dimen>
+    <dimen name="bar_pointer_radius">6.0dip</dimen>
+    <dimen name="bar_pointer_halo_radius">14.0dip</dimen>
+    <dimen name="com_facebook_picker_place_image_size">64.0dip</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_width">64.0dip</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_height">64.0dip</dimen>
+    <dimen name="com_facebook_loginview_padding_left">12.0dip</dimen>
+    <dimen name="com_facebook_loginview_padding_right">16.0dip</dimen>
+    <dimen name="com_facebook_loginview_padding_top">12.0dip</dimen>
+    <dimen name="com_facebook_loginview_padding_bottom">12.0dip</dimen>
+    <dimen name="com_facebook_loginview_compound_drawable_padding">12.0dip</dimen>
+    <dimen name="com_facebook_loginview_text_size">16.0sp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_small">50.0dip</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_normal">100.0dip</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_large">180.0dip</dimen>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+</resources>

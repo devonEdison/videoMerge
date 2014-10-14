@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/application_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout android:id="@+id/topbar" android:background="@drawable/facebook_topbar" android:layout_width="fill_parent" android:layout_height="75.0dip">
+        <Button android:id="@+id/buttonCancel" android:background="@drawable/facebook_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <Button android:id="@+id/buttonPost" android:background="@drawable/facebook_post" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="30.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/textTitle" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Facebook" android:layout_toLeftOf="@+id/buttonPost" android:layout_toRightOf="@+id/buttonCancel" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    
+<!--     <TextView
+        android:id="@+id/title_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="12dip"
+        android:paddingLeft="12dip"
+        android:paddingTop="12dip"
+        android:text="@string/share_message_title"
+        android:textSize="20sp"
+        android:textStyle="bold" /> -->
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:layout_marginBottom="30dip"
+        android:layout_marginLeft="10dip"
+        android:textColor="#ff0071ba"
+        android:textSize="24sp"
+		android:text="Messenger"        
+        android:gravity="left|top" />
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dip"
+        android:background="#ff0071ba" />
+    
+    <ImageView
+        android:id="@+id/fb_thumb"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dip"
+        android:adjustViewBounds="true" />
+    
+<!--     <RelativeLayout
+        android:id="@+id/message_addition"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="20dip" >
+
+        <ImageView
+            android:id="@+id/fb_thumb"
+            android:layout_width="70dip"
+            android:layout_height="70dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dip"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/link_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="10dip"
+            android:layout_toRightOf="@+id/fb_thumb"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/link_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/link_name"
+            android:layout_toRightOf="@+id/fb_thumb" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:padding="10dip"
+        android:text="@string/button_facebook_post" />
+
+    <Button
+        android:id="@+id/button_post_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="20dip"
+        android:padding="10dip"
+        android:text="@string/button_facebook_post_image" />
+ -->
+</LinearLayout>

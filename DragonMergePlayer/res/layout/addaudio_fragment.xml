@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffe4e4e4"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_margin="10dip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_margin="5dip"
+	        android:gravity="center_vertical"
+	        android:orientation="horizontal" >
+	
+	        <RadioButton
+	            android:id="@+id/radioButton1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:button="@drawable/ic_sel_btn"
+	            android:textSize="24sp"
+	            android:text="	影片聲音" />
+	        
+	        <ImageButton
+	            android:id="@+id/imgButton1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/play_btn" />
+	        	        
+	    </LinearLayout>
+	    
+		<View android:layout_width="fill_parent"
+	        android:layout_height="2dp"
+	        android:background="#ffb2b2b2" />
+		    
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_margin="5dip"
+	        android:gravity="center_vertical"
+	        android:orientation="horizontal" >
+	
+	        <RadioButton
+	            android:id="@+id/radioButton2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:button="@drawable/ic_sel_btn"
+	            android:textSize="24sp"
+	            android:text="	Happy Holiday" />
+	        
+	        <ImageButton
+	            android:id="@+id/imgButton2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" 
+	            android:background="@drawable/play_btn" />
+	        	        
+	    </LinearLayout>
+	    
+		<View android:layout_width="fill_parent"
+	        android:layout_height="2dp"
+	        android:background="#ffb2b2b2" />
+	    	    	    
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_margin="5dip"
+	        android:gravity="center_vertical"
+	        android:orientation="horizontal" >
+	
+	        <RadioButton
+	            android:id="@+id/radioButton3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:button="@drawable/ic_sel_btn"
+	            android:textSize="24sp"
+	            android:text="	Jazz Dance" />
+	        
+	        <ImageButton
+	            android:id="@+id/imgButton3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/play_btn" />
+	        	        
+	    </LinearLayout>
+	    
+		<View android:layout_width="fill_parent"
+	        android:layout_height="2dp"
+	        android:background="#ffb2b2b2" />
+	    	    
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_margin="5dip"
+	        android:gravity="center_vertical"
+	        android:orientation="horizontal" >
+	
+	        <RadioButton
+	            android:id="@+id/radioButton4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:button="@drawable/ic_sel_btn"
+	            android:textSize="24sp"
+	            android:text="	Relaxing Vacation" />
+	        
+	        <ImageButton
+	            android:id="@+id/imgButton4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/play_btn" />
+	        	        
+	    </LinearLayout>
+	    
+		<View android:layout_width="fill_parent"
+	        android:layout_height="2dp"
+	        android:background="#ffb2b2b2" />
+	    	    	    
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_margin="5dip"
+	        android:gravity="center_vertical"
+	        android:orientation="horizontal" >
+	
+	        <RadioButton
+	            android:id="@+id/radioButton5"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:button="@drawable/ic_sel_btn"
+	            android:textSize="24sp"
+	            android:text="	Rave Party" />
+	        
+	        <ImageButton
+	            android:id="@+id/imgButton5"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/play_btn" />
+	        	        
+	    </LinearLayout>
+	    
+		<View android:layout_width="fill_parent"
+	        android:layout_height="2dp"
+	        android:background="#ffb2b2b2" />
+	    	    
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_margin="5dip"
+	        android:gravity="center_vertical"
+	        android:orientation="horizontal" >
+	
+	        <RadioButton
+	            android:id="@+id/radioButton6"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:button="@drawable/ic_sel_btn"
+	            android:textSize="24sp"
+	            android:text="	Hello Hello" />
+	        
+	        <ImageButton
+	            android:id="@+id/imgButton6"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/play_btn" />
+	        	        
+	    </LinearLayout>
+
+		<View android:layout_width="fill_parent"
+	        android:layout_height="2dp"
+	        android:background="#ffb2b2b2" />
+	    	    
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_margin="5dip"
+	        android:gravity="center_vertical"
+	        android:orientation="horizontal" >
+	
+	        <RadioButton
+	            android:id="@+id/radioButton7"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:button="@drawable/ic_sel_btn"
+	            android:textSize="24sp"
+	            android:text="	Ready To Travel" />
+	        
+	        <ImageButton
+	            android:id="@+id/imgButton7"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/play_btn" />
+	        	        
+	    </LinearLayout>
+	    
+		<View android:layout_width="fill_parent"
+	        android:layout_height="2dp"
+	        android:background="#ffb2b2b2" />
+	    	    	    
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_margin="5dip"
+	        android:gravity="center_vertical"
+	        android:orientation="horizontal" >
+	
+	        <RadioButton
+	            android:id="@+id/radioButton8"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:button="@drawable/ic_sel_btn"
+	            android:textSize="24sp"
+	            android:text="	Perfect Day" />
+	        
+	        <ImageButton
+	            android:id="@+id/imgButton8"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/play_btn" />
+	        	        
+	    </LinearLayout>
+	    
+		<View android:layout_width="fill_parent"
+	        android:layout_height="2dp"
+	        android:background="#ffb2b2b2" />
+	    	    
+	</RadioGroup>
+
+</LinearLayout>

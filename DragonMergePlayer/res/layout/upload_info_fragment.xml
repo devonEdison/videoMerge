@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical"
+         android:gravity="center">
+
+	    <LinearLayout android:weightSum="5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal"
+	         android:gravity="center">
+	        <TextView 
+				android:id="@+id/username1" 
+	            android:gravity="center_vertical|left" 
+	            android:layout_margin="10.0dip"
+	            android:layout_width="100dp" 
+	            android:layout_height="wrap_content"
+	            android:textSize="20sp" 
+	            android:textColor="#FFFFFFFF"
+	            android:hint="名   稱" />
+	        
+	        <EditText 
+				android:id="@+id/username" 
+	            android:gravity="center_vertical"
+	            android:background="#ffffffff" 
+	            android:layout_margin="10.0dip" 
+	            android:layout_width="fill_parent" 
+	            android:layout_height="wrap_content"
+	            android:textSize="20sp" />
+	        
+        </LinearLayout>
+        
+	    <LinearLayout android:weightSum="5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal"
+	         android:gravity="center">
+	        <TextView 
+				android:id="@+id/tel1" 
+	            android:gravity="center_vertical|left" 
+	            android:layout_margin="10.0dip"
+	            android:layout_width="100dp" 
+	            android:textColor="#FFFFFFFF"
+	            android:layout_height="wrap_content"
+	            android:textSize="20sp" 
+	            android:hint="電話號碼" />
+	        
+	        <EditText 
+				android:id="@+id/tel" 
+	            android:gravity="center_vertical"
+	            android:background="#ffffffff"
+	            android:layout_margin="10.0dip"
+	            android:inputType="phone"
+	             
+	            android:maxLength="10"
+	            android:layout_width="fill_parent" 
+	            android:layout_height="wrap_content"
+	            android:textSize="20sp" />
+	        
+        </LinearLayout>
+	    
+	    <LinearLayout android:weightSum="5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal"
+	         android:gravity="center">
+	        <TextView 
+				android:id="@+id/email1" 
+	            android:gravity="center_vertical|left" 
+	            android:layout_margin="10.0dip"
+	            android:layout_width="100dp"
+	            android:textColor="#FFFFFFFF" 
+	            android:layout_height="wrap_content"
+	            android:textSize="20sp" 
+	            android:hint="身分證字號" />
+	        
+	        <EditText 
+				android:id="@+id/email" 
+	            android:gravity="center_vertical"
+	            android:background="#ffffffff" 
+	            android:layout_margin="10.0dip" 
+	            android:layout_width="fill_parent" 
+	            android:layout_height="wrap_content"
+	             
+	            android:maxLength="10"
+	            android:textSize="20sp" />
+	        
+        </LinearLayout>
+
+        <ImageView
+			android:id="@+id/imgmedia" 
+            android:gravity="center" 
+            android:layout_margin="10.0dip" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffffff"
+            android:scaleType="centerInside"
+            android:layout_gravity="center" />
+        
+        <Button
+			android:id="@+id/btnregister"
+			android:background="@drawable/ic_select_upload_file" 
+            android:gravity="center" 
+            android:layout_width="fill_parent" 
+            android:layout_height="60dip"
+            android:layout_gravity="center"
+            android:scaleType="centerInside" />
+        
+    </LinearLayout>
+</LinearLayout>

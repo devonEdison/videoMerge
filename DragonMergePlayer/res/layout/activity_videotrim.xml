@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#FF000000" android:layout_width="fill_parent" android:layout_height="fill_parent" 
+     xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:background="@drawable/title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+          
+      	<TextView android:id="@+id/txttitle" android:layout_width="fill_parent" android:text="影片長度調整" android:textColor="#FFFFFFFF" android:textSize="40sp" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:scaleType="fitXY" android:gravity="center" />
+      	
+       <ImageButton android:id="@+id/btn_back" 
+           android:layout_marginLeft="10dip" 
+           android:layout_centerVertical="true" 
+           android:background="@drawable/ic_back" 
+           android:layout_width="wrap_content" 
+           android:layout_height="wrap_content"
+           android:scaleType="centerInside" />
+       
+        <ImageButton android:id="@+id/btn_complete" 
+            android:layout_marginRight="10dip"
+            android:layout_alignParentRight="true" 
+            android:layout_centerVertical="true" 
+            android:background="@drawable/ic_complete" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside" />
+      
+	</RelativeLayout>
+
+	<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" 
+	    android:layout_gravity="center_vertical">
+    
+		<com.dragonplayer.merge.TimelineClip 
+	        android:id="@+id/img_frame"
+	    	android:layout_width="wrap_content"
+	    	android:layout_weight="1"
+	    	android:layout_height="60dp" />
+		
+		<TextView 
+	        android:id="@+id/txttrimtime"
+	    	android:layout_width="60dp"
+	    	android:layout_height="60dp"
+	    	android:textColor="#FFFFFFFF"
+	    	android:gravity="center" 
+	    	android:textSize="16sp" 
+	    	android:text="0秒" />
+			    	
+    </LinearLayout>>
+    
+	<SurfaceView android:id="@+id/surface"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+	<ImageButton android:layout_gravity="bottom|center" 
+	    android:id="@+id/btnPlay" 
+	    android:background="@null"
+	    android:src="@drawable/play_btn"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="60dip"
+	    android:gravity="center"
+	    android:scaleType="centerInside" />
+		
+</LinearLayout>

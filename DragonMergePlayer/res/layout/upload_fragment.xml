@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	<ImageButton 
+		android:id="@+id/btnselectmedia" 
+		android:background="@null" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+		android:src="@drawable/ic_selectmedia"
+		android:scaleType="centerInside" /> 
+    
+	<LinearLayout android:orientation="horizontal" 
+        android:id="@+id/bottom_button_layout"
+        android:gravity="center_horizontal" 
+		android:layout_gravity="center_horizontal"
+		android:background="@color/color_unselect" 
+        android:layout_width="fill_parent"
+        android:layout_above="@+id/btnselectmedia" 
+        android:layout_height="60dp">
+
+        <ImageView android:layout_gravity="bottom|center" 
+            android:id="@+id/btnList" 
+            android:background="@null" 
+            android:layout_width="wrap_content" 
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" 
+            android:gravity="center"
+            android:src="@drawable/btn_list"
+            android:scaleType="centerInside" />
+	    	 <!-- 原本是三個bar修改為2個bar 暫時隱藏 -->    	        
+        <ImageView android:layout_gravity="bottom|center" 
+            android:id="@+id/btnLock" 
+            android:background="@null" 
+            android:layout_width="wrap_content" 
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" 
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_lock"
+            android:visibility="gone" />
+	    	    	        
+        <ImageView android:layout_gravity="bottom|center" 
+            android:id="@+id/btnUpload" 
+            android:background="@null" 
+            android:layout_width="wrap_content" 
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" 
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_upload" />
+	    	    	        
+    </LinearLayout>            
+    	
+   <WebView
+      android:id="@+id/webView1"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:background="#ffffffff"
+      android:layout_marginTop="10dip"
+		android:layout_marginBottom="10dip"
+		android:layout_marginLeft="30dip"
+		android:layout_marginRight="30dip"
+		android:layout_weight="1"
+		android:textSize="24dip"
+		android:gravity="center"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:layout_above="@+id/bottom_button_layout"
+		/>
+    
+</RelativeLayout>
+

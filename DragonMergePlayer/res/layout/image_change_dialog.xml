@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+    <Button android:id="@+id/btnchangepos" 
+        android:text="更換位置"
+        android:textSize="30dip"
+        android:layout_margin="10dip"
+        android:gravity="center"
+        android:layout_width="fill_parent" 
+        android:layout_height="60dip" />
+	    
+    <!-- <Button android:id="@+id/btnchangestyle" 
+        android:text="調整風格"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:gravity="center"
+        android:layout_width="fill_parent" 
+        android:layout_height="60dip" /> -->
+	    
+    <Button android:id="@+id/btnchangephoto" 
+        android:text="更換照片"
+        android:textSize="30dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:layout_width="fill_parent" 
+        android:layout_height="60dip" />
+
+    <Button android:id="@+id/btnremove" 
+        android:text="刪除"
+        android:textSize="30dip"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:layout_width="fill_parent" 
+        android:layout_height="60dip" />
+    
+</LinearLayout>

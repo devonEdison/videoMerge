@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="appirator_button_start_color">#ff449def</color>
+    <color name="appirator_button_end_color">#ff2f6699</color>
+    <color name="appirator_button_text_color">#ffffffff</color>
+    <color name="com_facebook_picker_search_bar_background">#fff5f5f7</color>
+    <color name="com_facebook_picker_search_bar_text">#ffbcbdc2</color>
+    <color name="com_facebook_blue">#ff3b5998</color>
+    <color name="com_facebook_usersettingsfragment_connected_text_color">#ffffffff</color>
+    <color name="com_facebook_usersettingsfragment_connected_shadow_color">#ff000000</color>
+    <color name="com_facebook_usersettingsfragment_not_connected_text_color">#ffa6aed7</color>
+    <color name="com_facebook_loginview_text_color">#ffffffff</color>
+    <color name="color_blue">#ff156eac</color>
+    <color name="color_unselect">#FFDF647E</color>
+    <color name="color_select">#FFED7F8D</color>
+</resources>

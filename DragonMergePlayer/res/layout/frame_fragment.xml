@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="10.0">
+        <LinearLayout android:gravity="center" android:background="#FFE77A35" android:orientation="horizontal" android:id="@+id/top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" android:layout_alignParentBottom="true" android:weightSum="12.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/selectPhoto" android:background="@drawable/grid_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="8.0dip" android:weightSum="10.0" android:layout_weight="2.5">
+                <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/photo_icon" android:scaleType="fitCenter" />
+                <TextView android:textSize="11.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:text="@string/select_photo" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/takePhoto" android:background="@drawable/grid_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:weightSum="10.0" android:layout_weight="2.5">
+                <ImageView android:id="@+id/imageView2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/camera_icon" android:scaleType="fitCenter" />
+                <TextView android:textSize="11.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="5.0dip" android:text="@string/take_photo" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/selectVideo" android:background="@drawable/grid_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:weightSum="10.0" android:layout_weight="2.5">
+                <ImageView android:id="@+id/imageView3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/video_icon" android:scaleType="fitCenter" />
+                <TextView android:textSize="11.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="5.0dip" android:text="@string/select_video" android:layout_weight="3.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/recordVideo" android:background="@drawable/grid_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="10.0dip" android:weightSum="10.0" android:layout_weight="2.5">
+                <ImageView android:id="@+id/imageView4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/record_icon" android:scaleType="fitCenter" />
+                <TextView android:textSize="11.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:text="@string/record_video" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/frameHolder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@+id/top" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@+id/upgrade" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:scaleType="fitCenter" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

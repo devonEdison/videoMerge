@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+	<LinearLayout android:orientation="horizontal" 
+        android:id="@+id/bottom_button_layout"
+        android:gravity="center_horizontal" 
+		android:layout_gravity="center_horizontal"
+        android:layout_width="fill_parent" 
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+        <ImageButton android:layout_gravity="bottom|center" 
+            android:id="@+id/btnList" 
+            android:layout_width="wrap_content" 
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" 
+            android:gravity="center"
+            android:background="@drawable/ic_selectframe"
+            android:scaleType="centerInside" />
+	    	    	        
+        <ImageButton android:layout_gravity="bottom|center" 
+            android:id="@+id/btnAddText" 
+            android:layout_width="wrap_content" 
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ic_addtext"
+            android:orientation="vertical" 
+            android:gravity="center"
+            android:scaleType="centerInside" />
+	    	    	        
+    </LinearLayout>            
+    
+    <LinearLayout android:layout_margin="20dp" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/frameHolder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@+id/bottom_button_layout" android:layout_centerHorizontal="true" />
+
+    <RelativeLayout android:background="#C0FFFFFF" android:orientation="vertical" android:id="@+id/frameList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@+id/bottom_button_layout" >
+    
+	    <com.dragonplayer.merge.frames.HorizontalListView android:id="@+id/viewPager3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@+id/radioGroup1" android:layout_below="@+id/frameseltitle" 
+	        android:layout_centerVertical="true" />
+	    
+	    <android.support.v4.view.ViewPager android:id="@+id/viewPager1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@+id/radioGroup1" android:layout_below="@+id/frameseltitle" 
+	        android:layout_centerVertical="true" />
+	    
+	    <RadioGroup android:gravity="center" android:orientation="horizontal"  
+	        android:id="@+id/radioGroup1" android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_margin="7.0dip" android:layout_centerHorizontal="true" />
+
+	    <android.support.v4.view.ViewPager android:id="@+id/viewPager2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@+id/radioGroup1" android:layout_below="@+id/frameseltitle" 
+	        android:layout_centerVertical="true" />
+	    
+	    <RadioGroup android:gravity="center" android:orientation="horizontal"  
+	        android:id="@+id/radioGroup2" android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_margin="7.0dip" android:layout_centerHorizontal="true" />
+	    	    
+	    <ImageView android:layout_marginTop="5.0dip" android:id="@+id/frameseltitle" android:background="@drawable/text_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_gravity="center" android:gravity="center" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+
+	</RelativeLayout>
+	
+</RelativeLayout>

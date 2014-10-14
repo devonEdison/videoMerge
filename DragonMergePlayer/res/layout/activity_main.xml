@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@+id/drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="#FF022434" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@+id/titlebg_layout" android:orientation="vertical" android:background="@drawable/bar_3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            
+	        <ImageButton android:id="@+id/btn_back" 
+	            android:layout_centerVertical="true" 
+	            android:background="@drawable/ic_back" 
+	            android:layout_width="wrap_content" 
+	            android:layout_height="wrap_content"
+	            android:scaleType="centerInside" />
+	        
+	        <ImageButton android:id="@+id/btn_complete" 
+	            android:layout_alignParentRight="true" 
+	            android:layout_centerVertical="true" 
+	            android:background="@drawable/ic_complete" 
+	            android:layout_width="wrap_content" 
+	            android:layout_height="wrap_content"
+	            android:scaleType="centerInside" />
+	        
+	        <ImageButton android:id="@+id/btn_new" 
+	            android:layout_alignParentRight="true" 
+	            android:layout_centerVertical="true" 
+	            android:background="@drawable/ic_new" 
+	            android:layout_width="wrap_content" 
+	            android:layout_height="wrap_content"
+	            android:visibility="invisible"
+	            android:scaleType="centerInside" />
+	        
+        	<ImageView android:id="@+id/txttitle" 
+        	    android:layout_width="100dp"
+        	    android:layout_height="50dp" 
+				android:layout_centerVertical="true"
+				android:layout_centerHorizontal="true"   />
+		</RelativeLayout>
+		
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1">
+            
+            <FrameLayout android:id="@+id/content_frame" 
+                android:layout_width="fill_parent" 
+                android:layout_height="fill_parent" />
+            
+		</RelativeLayout>
+		
+        <com.loopj.android.image.SmartImageView
+            android:id="@+id/imgbanner"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:scaleType="fitXY" />
+        
+    </LinearLayout>
+    
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="10.0">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/frameHolder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@+id/bottom" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@+id/bottom">
+            <Button android:layout_gravity="center" android:id="@+id/buttonPlayPause" android:background="@drawable/play_pause_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <RelativeLayout android:id="@+id/bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+                <!-- <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/facebook" android:background="@drawable/grid_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="10.0" android:layout_weight="3.0">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/facebook_icon" android:scaleType="fitCenter" />
+                    <TextView android:textSize="11.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/facebook" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/twitter" android:background="@drawable/grid_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="10.0" android:layout_weight="3.0">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/twitter_icon" android:scaleType="fitCenter" />
+                    <TextView android:textSize="11.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="5.0dip" android:text="@string/twitter" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/email" android:background="@drawable/grid_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="10.0" android:layout_weight="3.0">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/mail_icon" android:scaleType="fitCenter" />
+                    <TextView android:textSize="11.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/email" />
+                </LinearLayout> 
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/save" android:background="@drawable/grid_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="10.0" android:layout_weight="3.0">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/save_icon" android:scaleType="fitCenter" />
+                    <TextView android:textSize="11.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/save" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/instagram" android:background="@drawable/grid_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="10.0" android:layout_weight="3.0">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/instagram_icon" android:scaleType="fitCenter" />
+                    <TextView android:textSize="11.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/instagram" />
+                </LinearLayout> -->
+                
+		        <ImageButton android:layout_gravity="bottom|center" 
+		            android:id="@+id/btnShare" 
+		            android:background="@null" 
+		            android:layout_width="wrap_content" 
+		            android:layout_height="60dip"
+		            android:layout_weight="1"
+		            android:orientation="vertical" 
+		            android:gravity="center"
+		            android:src="@drawable/ic_share"
+		            android:scaleType="fitXY" />
+
+		        <ImageButton android:layout_gravity="bottom|center" 
+		            android:id="@+id/btnSave" 
+		            android:background="@null" 
+		            android:layout_width="wrap_content" 
+		            android:layout_height="60dip"
+		            android:layout_weight="1"
+		            android:orientation="vertical" 
+		            android:gravity="center"
+		            android:src="@drawable/ic_save"
+		            android:scaleType="fitXY" />
+		            		            			    	    	        
+            </LinearLayout>
+        </RelativeLayout>
+
+		<LinearLayout android:gravity="center" android:orientation="horizontal"
+		    android:id="@+id/shareLayout" 
+		    android:background="#80808080"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:layout_above="@+id/bottom">
+			      
+			<ImageButton android:layout_gravity="bottom|center" 
+			    android:id="@+id/btnFacebook" 
+			    android:background="@null" 
+			    android:layout_width="wrap_content" 
+			    android:layout_height="60dip"
+			    android:layout_weight="1"
+			    android:layout_marginTop="10dip"
+			    android:layout_marginBottom="10dip"
+			    android:orientation="vertical" 
+			    android:gravity="center"
+			    android:src="@drawable/facebook_icon"
+			    android:scaleType="centerInside" />
+			
+			<ImageButton android:layout_gravity="bottom|center" 
+			    android:id="@+id/btnMail" 
+			    android:background="@null" 
+			    android:layout_marginTop="10dip"
+			    android:layout_marginBottom="10dip"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="60dip"
+			    android:layout_weight="1"
+			    android:orientation="vertical" 
+			    android:gravity="center"
+			    android:src="@drawable/mail_icon"
+			    android:scaleType="centerInside" />
+			    		            			    	    	        
+			<!-- <ImageButton android:layout_gravity="bottom|center" 
+			    android:id="@+id/btnLine" 
+			    android:background="@null" 
+			    android:layout_width="wrap_content" 
+			    android:layout_height="60dip"
+			    android:layout_marginTop="10dip"
+			    android:layout_marginBottom="10dip"
+			    android:layout_weight="1"
+			    android:orientation="vertical" 
+			    android:gravity="center"
+			    android:src="@drawable/line_icon"
+			    android:scaleType="centerInside" /> -->
+			
+		</LinearLayout>    
+        
+	</RelativeLayout>
+</LinearLayout>

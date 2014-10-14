@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="appirator_days_until_prompt">2</integer>
+    <integer name="appirator_launches_until_prompt">2</integer>
+    <integer name="appirator_days_before_reminding">0</integer>
+</resources>

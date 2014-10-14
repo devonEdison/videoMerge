@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+   	<ImageButton 
+		android:id="@+id/btnsk" 
+		android:background="@null" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+		android:src="@drawable/ic_sk"
+		android:scaleType="center" /> 
+    
+	<LinearLayout android:orientation="horizontal" 
+        android:id="@+id/bottom_button_layout"
+        android:gravity="center_horizontal" 
+		android:layout_gravity="center_horizontal"
+		android:background="@color/color_unselect" 
+        android:layout_width="fill_parent"
+        android:layout_above="@+id/btnsk" 
+        android:layout_height="60dp">
+
+        <ImageView android:layout_gravity="bottom|center" 
+            android:id="@+id/btnList" 
+            android:background="@null" 
+            android:layout_width="wrap_content" 
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" 
+            android:gravity="center"
+            android:src="@drawable/btn_list"
+            android:scaleType="centerInside" />
+	    	    	        
+        <ImageView android:layout_gravity="bottom|center" 
+            android:id="@+id/btnLock" 
+            android:background="@null" 
+            android:layout_width="wrap_content" 
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" 
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_lock" />
+	    	    	        
+        <ImageView android:layout_gravity="bottom|center" 
+            android:id="@+id/btnUpload" 
+            android:background="@null" 
+            android:layout_width="wrap_content" 
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" 
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_upload" />
+	    	    	        
+    </LinearLayout>            
+        
+    <ImageView 
+		android:id="@+id/imglock" 
+		android:background="@null" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:layout_marginTop="20dip"
+		android:layout_marginBottom="10dip"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentTop="true"
+		android:src="@drawable/lock_explain"
+		android:scaleType="centerInside" />
+
+    <!-- <com.facebook.widget.LoginButton
+            android:id="@+id/btnsk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_marginLeft="20dip"
+			android:layout_marginRight="20dip"
+			android:layout_centerHorizontal="true"
+			android:layout_above="@+id/bottom_button_layout"
+			android:background="@drawable/ic_sk"
+			android:scaleType="centerInside" /> -->
+    	
+    <LinearLayout 
+		android:id="@+id/txtexplain" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dip"
+		android:layout_marginLeft="30dip"
+		android:layout_marginRight="30dip"
+		android:layout_weight="1"
+		android:orientation="vertical"
+		android:gravity="center"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@+id/imglock"
+		android:layout_above="@+id/bottom_button_layout" >
+        
+        <ImageView  
+            android:id="@+id/imgexplain" 
+            android:background="@null" 
+            android:layout_marginBottom="10dip"
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/lock_explain_image"
+            android:scaleType="centerInside" />
+	    
+    </LinearLayout>
+    
+</RelativeLayout>

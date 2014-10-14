@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:background="@drawable/window_2"
+    android:weightSum="472"
+  	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	    <TextView
+	        android:id="@+id/txtcontent"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="287.75"
+	        android:gravity="center"
+	        android:text=""
+	        android:textColor="#ff808080"
+	        android:textSize="30dip" />
+				    
+	    <Button
+	        android:id="@+id/btnok"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="96.67"
+	        android:background="@null"
+	        android:gravity="center"
+	        android:text=""
+	        android:textColor="#ff007aff"
+	        android:textSize="30dip" />
+		    
+	    <Button
+	        android:id="@+id/btncancel"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="65.97"
+	        android:background="@null"
+	        android:gravity="center"
+	        android:textColor="#ff007aff"
+	        android:textSize="30dip" />
+    
+</LinearLayout>

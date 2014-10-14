@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="appiratorButton" parent="@*android:style/Widget.Button">
+        <item name="android:textColor">@color/appirator_button_text_color</item>
+        <item name="android:background">@drawable/button_appirator</item>
+    </style>
+    <style name="com_facebook_loginview_default_style" parent="@*android:style/Widget.Button">
+        <item name="android:textSize">@dimen/com_facebook_loginview_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/com_facebook_loginview_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/com_facebook_button_blue</item>
+        <item name="android:paddingLeft">@dimen/com_facebook_loginview_padding_left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="com_facebook_loginview_silver_style" parent="@*android:style/Widget.Button">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff4b5164</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/com_facebook_loginbutton_silver</item>
+        <item name="android:height">44.0dip</item>
+        <item name="android:width">205.0dip</item>
+    </style>
+    <style name="AppBaseTheme" parent="@*android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <style name="MyActionBar" parent="@*android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/action_bar_bg</item>
+        <item name="android:titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+        <item name="android:backgroundSplit">@drawable/insta_ribon</item>
+    </style>
+    <style name="MyTheme.ActionBar.TitleTextStyle" parent="@*android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+    <style name="DialogTheme" parent="@*android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowAnimationStyle">@*android:style/Animation.Dialog</item>
+    </style>
+</resources>

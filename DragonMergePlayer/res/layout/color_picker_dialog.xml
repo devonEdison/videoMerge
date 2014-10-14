@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.larswerkman.holocolorpicker.ColorPicker android:layout_gravity="center_horizontal" android:id="@+id/picker" android:layout_width="fill_parent" android:layout_height="200.0dip" />
+            <TextView android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/saturation" android:textAllCaps="true" />
+            <com.larswerkman.holocolorpicker.SaturationBar android:layout_gravity="center_horizontal" android:id="@+id/saturationbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <TextView android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/lightness" android:textAllCaps="true" />
+            <com.larswerkman.holocolorpicker.SVBar android:layout_gravity="center_horizontal" android:id="@+id/svbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="8.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

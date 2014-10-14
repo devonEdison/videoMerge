@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appirator_app_title">@string/app_name</string>
+    <string name="appirator_market_url">market://details?id=%s</string>
+    <string name="rate_message">Do you love %s ?</string>
+    <string name="hi_there">Hi, there!</string>
+    <string name="love_it">Love it!</string>
+    <string name="its_ok">"it's OK"</string>
+    <string name="hate_it">Hate it!</string>
+    <string name="love_message">"Your love makes us work harder!
+Please support us by reviewing our app! Thanks!"</string>
+    <string name="send_us">Send use some love!</string>
+    <string name="sure">Sure!</string>
+    <string name="maybe">Maybe Later</string>
+    <string name="no_thanks">No, Thanks</string>
+    <string name="opinion_message">We love our users! We want to work hard to make you happy! Please send us feedback so we can help make %s better!</string>
+    <string name="your_opinion">Your opinion matters!</string>
+    <string name="not_now">Not now</string>
+    <string name="send">Send Feedback!</string>
+    <string name="com_facebook_dialogloginactivity_ok_button">OK</string>
+    <string name="com_facebook_loginview_log_out_button">Log out</string>
+    <string name="com_facebook_loginview_log_in_button">Log in with Facebook</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log out</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_logo_content_description">Facebook Logo</string>
+    <string name="com_facebook_usersettingsfragment_log_in_button">Log in…</string>
+    <string name="com_facebook_usersettingsfragment_logged_in">Logged in</string>
+    <string name="com_facebook_usersettingsfragment_not_logged_in">Not logged in</string>
+    <string name="com_facebook_placepicker_subtitle_format">%1$s • %2$,d were here</string>
+    <string name="com_facebook_placepicker_subtitle_catetory_only_format">%1$s</string>
+    <string name="com_facebook_placepicker_subtitle_were_here_only_format">%1$,d were here</string>
+    <string name="com_facebook_picker_done_button_text">Done</string>
+    <string name="com_facebook_choose_friends">Choose Friends</string>
+    <string name="com_facebook_nearby">Nearby</string>
+    <string name="com_facebook_loading">Loading...</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_requesterror_web_login">Your Facebook account is locked. Please log into www.facebook.com to continue.</string>
+    <string name="com_facebook_requesterror_relogin">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_password_changed">Your Facebook password has changed. Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_reconnect">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_permissions">This app doesn’t have permission to do this. To change permissions, try logging into the app again.</string>
+    <string name="ga_trackingId">UA-46944735-2</string>
+    <string name="app_name">DragonMergePlayer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="main_menu_text">Main Menu</string>
+    <string name="home_screen">Home</string>
+    <string name="select_photo">select photo</string>
+    <string name="take_photo">take photo</string>
+    <string name="select_video">select video</string>
+    <string name="record_video">record video</string>
+    <string name="PREFS">prefs</string>
+    <string name="frames">拼貼列表</string>
+    <string name="lock">模板解鎖說明</string>
+    <string name="lockregister">驗證</string>
+    <string name="lockconfirm">成功解鎖版型</string>
+    <string name="upload">抽獎活動介紹</string>
+    <string name="uploadinfo">個人資料填寫</string>
+    <string name="uploadmedia">拼貼列表</string>
+    <string name="uploadconfirm">參加活動明細</string>
+    <string name="addaudio">選擇音效</string>
+    <string name="select">拼貼製作</string>
+    <string name="borders">Borders</string>
+    <string name="finish">詳細資訊</string>
+    <string name="uploadmessage">【個資聲明】 \n 依個人資料保護法，參加本活動者視為暸解及同意於抽獎及行銷活動之需要進行蒐集、處理及利用其個人資料(限姓名、電話、身分證，以利通知獲獎資訊)。參加者如欲閱覽、變更、刪除個資或要求停止蒐集、處理及利用個人資料，請通知要求辦理。請務必詳細閱讀個人資料告知暨同意書內容。當您確定參加本活動， 視同您已了解活動規則並同意提供資料予主辦單位。 \n \n 【個人資料告知暨同意書】 \n 新光人壽(下稱本公司)因舉辦公共關係活動而蒐集、處理或利用個人資料時，皆以尊重您的權益為基礎，並以誠實信用之方式及以下原則為之。 \n \n 本公司蒐集您的個人資料目的係為配合本次活動需要，以便審核確定參加資格及相關活動辦法之權利。本公司僅會要求您提供為公共關係活動作業執行之必要(例如姓名、電話、身份證字號表單所列項目等)的個人資料，該資料只會在執行活動業務所必須及經您同意之期間被處理或利用。您提供的個人資料僅會以電子檔或紙本形式於我國境內、外供本公司、外部服務提供廠商處理及利用，若您需要更進一步了解您的個人資料之處理或利用的詳細情形，歡迎您與我們聯繫。 \n \n 本公司對於蒐集、處理或利用任何之個人資料皆以遵循本公司之個人資料管理目標與政策為指導原則，並訂有完善之個人資料保護安全維護計畫，任何流程皆有嚴格之控管程序及標準作業流程，因此您可以安心的將您的個人資料提供予本公司。 \n \n 本公司保有您的個人資料時，基於我國個人資料保護法之規定，您可以依法行使下述的權利: \n \n 查詢或請求閱覽您的個人資料。\n 請求製給您的個人資料複製本。 \n 請求補充或更正您的個人資料。 \n 請求停止蒐集、處理或利用您的個人資料。 \n 請求刪除您的個人資料。\n \n 您欲行使上述提及之相關權利時，請洽本次活動經辦單位受理您的請求，您可以洽詢新光人壽公共事務部服務專線02-23895858 #2126、#2124，而提出您的請求。\n \n 本公司基於上述原因而需蒐集、處理或利用您的個人資料時，您可以自由選擇是否提供您的個人資料。 \n \n 若您有提供您以外之人的個人資料時，您同意並了解負有確實告知該第三人有關本聲明事項之所有內容且取得其同意之責任。\n  \n 若您拒絕提供相關個人資料或所留存資料不全、錯誤或無法辨識，本次活動將無法進行必要之審核及處理作業，致無法提供相關服務。 \n \n 本個人資料保護告知事項之內容，如因法令或情事變更而有更易必要，本公司有權隨時修改告知事項之內容，並將更新內容於網站上公告。
+  	</string>
+  	<string name="upload_alertdialog_yes">同意</string>
+  	<string name="upload_alertdialog_no">不同意</string>
+    <string name="settings">Settings</string>
+    <string name="borders_size">Border size</string>
+    <string name="color_picker">Color picker</string>
+    <string name="use">Use</string>
+    <string name="saturation">Saturation</string>
+    <string name="lightness">Lightness</string>
+    <string name="facebook">facebook</string>
+    <string name="twitter">twitter</string>
+    <string name="instagram">instagram</string>
+    <string name="email">email</string>
+    <string name="save">save</string>
+    <string name="facebook_list">Like us on Facebook</string>
+    <string name="twitter_list">Follow us on Twitter</string>
+    <string name="instagram_list">Follow us on Istagram</string>
+    <string name="rate_list">Rate our app</string>
+    <string name="contact_lis">Contact us</string>
+    <string name="more_apps_list">More apps</string>
+    <string name="share_list">Share</string>
+    <string name="help_list">Help</string>
+    <string name="loading">application loading…</string>
+    <string name="FACEBOOK_APP_ID">506105876149553</string>
+    <string name="no_frame_selected">No frame selected. You can do so in \"frames\" tab</string>
+    <string name="dialog_title">Free Version</string>
+    <string name="dialog_message">In free version of #DragonMergePlayer you can add only one video to your frames. If you want to add more than one video please click Upgrade button below</string>
+    <string name="play_video_siquentially">Play video sequentially</string>
+    <string name="add_track">Add your track</string>
+    <string name="video_duration">Video duration</string>
+    <string name="seconds_text">seconds</string>
+    <string name="gif_warning">DragonMergePlayer has detected that you have added an animated GIF. The output will be video. You may edit the length of your animated GIF video under video settings. Having a video length that is longer than the animated GIF will automatically loop the animated GIF until the video is over.</string>
+    <string name="override_video_lenght">Set custom video length (Note: Having a video length that is longer than the animated GIF will automatically loop the animated GIF until the video is over.)</string>
+    <string name="music_suggestion">!!! Use Google Play Music for best results !!!</string>
+    
+    <!-- Facebook events -->
+    <string name="toast_facebook_auth_success">Facebook authentication is successful</string>
+    <string name="toast_facebook_auth_fail">Error was occurred during Facebook authentication</string>
+    <string name="facebook_post_published">Posted to Facebook successfully</string>
+    <string name="facebook_post_publishing_failed">Post publishing was failed</string>
+    <string name="facebook_logged_out">You are logged out</string>
+    <!-- Twitter events -->
+    <string name="toast_twitter_auth_success">Twitter authentication is successful</string>
+    <string name="toast_twitter_auth_fail">Error was occurred during Twitter authentication</string>
+    <string name="twitter_post_published">Tweeted successfully</string>
+    <string name="twitter_post_publishing_failed">Tweet failed</string>
+    <string name="twitter_logged_out">You are logged out</string>
+    <!-- Text and labels -->
+    <string name="share_message_title">Message</string>
+    <string name="button_facebook_post">Post on Facebook</string>
+    <string name="button_facebook_post_image">Post image on Facebook</string>
+    <string name="button_twitter_post">Post on Twitter</string>
+    <string name="button_share_facebook">Share on Facebook</string>
+    <string name="button_share_twitter">Share on Twitter</string>
+    <string name="menu_logout">Logout</string>
+	<string name="app_id">772200969511948</string>
+	
+	<style name="CustomDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item> 
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>
