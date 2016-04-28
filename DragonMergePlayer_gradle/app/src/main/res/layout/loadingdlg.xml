@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+ android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@+id/progressLoading" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+</RelativeLayout>
